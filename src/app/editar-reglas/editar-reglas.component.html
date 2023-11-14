@@ -1,7 +1,16 @@
-<p>{{data.banco.nombre}}</p>
-<label class="mr-4">Link de la imagen: </label>
-<input type="text" />
-<div *ngFor="let regla of reglas" class="py-2">
-    <label class="mr-4">Interes {{regla.nombre}}</label>
-    <input type="number" [value]="regla.interes" />
-</div>
+<div *ngFor="let regla of reglas; let i = index" class="py-2">
+    <p>Tipo de Crédito: {{ regla.nombre }}</p>
+    <form [formGroup]="reglaForm" (ngSubmit)="updateRegla(i)">
+      <!-- Campos del formulario -->
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" formControlName="nombre" />
+      <input type="number" [value]="regla.interes" />
+
+      <input type="number" id="interes" formControlName="interes" />
+  
+      <!-- Otros campos del formulario según tus necesidades -->
+  
+      <button type="submit">Actualizar Regla</button>
+    </form>
+  </div>
+  

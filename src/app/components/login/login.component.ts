@@ -2,7 +2,6 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { User } from 'src/app/models/user';
 import { AuthService, ROLE_KEY, Roles } from 'src/app/services/auth.service';
-
 import Swal from 'sweetalert2';
 import { CrearUsuarioComponent } from '../crear-usuario/crear-usuario.component';
 import { MatDialog } from '@angular/material/dialog';

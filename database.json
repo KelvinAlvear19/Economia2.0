@@ -58,7 +58,8 @@
       "tipoCreditoId": 1,
       "nombre": "Credito Personal",
       "maxPlazo": 30,
-      "interes": 14
+      "interes": 18,
+      "tipoCredito": []
     },
     {
       "id": 2,
@@ -209,6 +210,12 @@
       "userName": "tobi",
       "roleId": "user",
       "pass": "123"
+    },
+    {
+      "userName": "alejandro",
+      "pass": "12345678",
+      "roleId": "user",
+      "id": 3
     }
   ]
 }
