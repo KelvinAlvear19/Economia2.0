@@ -1,0 +1,214 @@
+{
+  "banco": [
+    {
+      "id": 1,
+      "nombre": "Banco Pichincha",
+      "descripcion": "Description Pichincha",
+      "imagen": "data:image/png;base64,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"
+    },
+    {
+      "id": 2,
+      "nombre": "Banco Nacional",
+      "descripcion": "Proveer a la economía del país de moneda nacional y su objetivo prioritario es procurar la estabilidad del poder adquisitivo de dicha moneda. Adicionalmente, le corresponde promover el sano desarrollo del sistema financiero y propiciar el buen funcionamiento de los sistemas de pago",
+      "imagen": "https://i.pinimg.com/originals/d0/e7/cd/d0e7cd3b3f3b6fff95d562695d929a1f.jpg"
+    },
+    {
+      "id": 3,
+      "nombre": "Banco Internacional",
+      "descripcion": "Banco Internacional, fundado en 1973, tiene operaciones en todo el territorio ecuatoriano sirviendo a más de 500.000 clientes. Se caracteriza por su solidez, amplia cobertura nacional y su enfoque en el sector productivo; así como por su liderazgo en servicios y actividades de comercio exterior",
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Banco_Internacional_Ecuador.png"
+    },
+    {
+      "id": 4,
+      "nombre": "Banco Guayaquil",
+      "descripcion": "El Banco Guayaquil es una institución financiera de banca universal con base en la ciudad de Guayaquil, Ecuador",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaUwGtrB98R6HhSXyfA8U8s7pcoMrQR05I_Ipjx6bxblDZEnAQPNeRe0E51YwCynqdhgw&usqp=CAU"
+    },
+    {
+      "id": 5,
+      "nombre": "Banco Machala",
+      "descripcion": "Somos un banco conservador en cuanto a las decisiones de crédito y la estrategia de negocio, siempre pensando en la solidez del balance y la protección de los depósitos de nuestros clientes",
+      "imagen": "data:image/png;base64,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"
+    },
+    {
+      "id": 6,
+      "nombre": "Banco Austro",
+      "descripcion": "Somos una institución financiera diferente, orientada a satisfacer las necesidades de los ecuatorianos, quienes creen que valores como solidez, eficiencia y sobre todo integridad son vitales para construir un negocio",
+      "imagen": "https://ekosnegocios.com/image/corporations/January2021/3aeXQXHkztZ1oQS4qEgP.png"
+    }
+  ],
+  "tipoCredito": [
+    {
+      "id": 1,
+      "nombre": "Credito Personal"
+    },
+    {
+      "id": 2,
+      "nombre": "Credito Estudiantil"
+    },
+    {
+      "id": 3,
+      "nombre": "Credito Hipotecario"
+    }
+  ],
+  "bancoTipoCredito": [
+    {
+      "id": 1,
+      "bancoId": 1,
+      "tipoCreditoId": 1,
+      "nombre": "Credito Personal",
+      "maxPlazo": 30,
+      "interes": 14
+    },
+    {
+      "id": 2,
+      "bancoId": 1,
+      "tipoCreditoId": 2,
+      "nombre": "Credito Estudiantil",
+      "maxPlazo": 60,
+      "interes": 12
+    },
+    {
+      "id": 3,
+      "bancoId": 1,
+      "tipoCreditoId": 3,
+      "nombre": "Credito Hipotecario",
+      "maxPlazo": 60,
+      "interes": 8
+    },
+    {
+      "id": 4,
+      "bancoId": 2,
+      "tipoCreditoId": 1,
+      "nombre": "Credito Personal",
+      "maxPlazo": 30,
+      "interes": 15
+    },
+    {
+      "id": 5,
+      "bancoId": 2,
+      "tipoCreditoId": 2,
+      "nombre": "Credito Estudiantil",
+      "maxPlazo": 60,
+      "interes": 11
+    },
+    {
+      "id": 6,
+      "bancoId": 2,
+      "tipoCreditoId": 3,
+      "nombre": "Credito Hipotecario",
+      "maxPlazo": 60,
+      "interes": 7.5
+    },
+    {
+      "id": 7,
+      "bancoId": 3,
+      "tipoCreditoId": 1,
+      "nombre": "Credito Personal",
+      "maxPlazo": 30,
+      "interes": 13.5
+    },
+    {
+      "id": 8,
+      "bancoId": 3,
+      "tipoCreditoId": 2,
+      "nombre": "Credito Estudiantil",
+      "maxPlazo": 60,
+      "interes": 12.5
+    },
+    {
+      "id": 9,
+      "bancoId": 3,
+      "tipoCreditoId": 3,
+      "nombre": "Credito Hipotecario",
+      "maxPlazo": 60,
+      "interes": 8.8
+    },
+    {
+      "id": 10,
+      "bancoId": 4,
+      "tipoCreditoId": 1,
+      "nombre": "Credito Personal",
+      "maxPlazo": 30,
+      "interes": 14.2
+    },
+    {
+      "id": 11,
+      "bancoId": 4,
+      "tipoCreditoId": 2,
+      "nombre": "Credito Estudiantil",
+      "maxPlazo": 60,
+      "interes": 11.8
+    },
+    {
+      "id": 12,
+      "bancoId": 4,
+      "tipoCreditoId": 3,
+      "nombre": "Credito Hipotecario",
+      "maxPlazo": 60,
+      "interes": 7.2
+    },
+    {
+      "id": 13,
+      "bancoId": 5,
+      "tipoCreditoId": 1,
+      "nombre": "Credito Personal",
+      "maxPlazo": 30,
+      "interes": 14.5
+    },
+    {
+      "id": 14,
+      "bancoId": 5,
+      "tipoCreditoId": 2,
+      "nombre": "Credito Estudiantil",
+      "maxPlazo": 60,
+      "interes": 12.3
+    },
+    {
+      "id": 15,
+      "bancoId": 5,
+      "tipoCreditoId": 3,
+      "nombre": "Credito Hipotecario",
+      "maxPlazo": 60,
+      "interes": 7.8
+    },
+    {
+      "id": 16,
+      "bancoId": 6,
+      "tipoCreditoId": 1,
+      "nombre": "Credito Personal",
+      "maxPlazo": 30,
+      "interes": 13.8
+    },
+    {
+      "id": 17,
+      "bancoId": 6,
+      "tipoCreditoId": 2,
+      "nombre": "Credito Estudiantil",
+      "maxPlazo": 60,
+      "interes": 12.2
+    },
+    {
+      "id": 18,
+      "bancoId": 6,
+      "tipoCreditoId": 3,
+      "nombre": "Credito Hipotecario",
+      "maxPlazo": 60,
+      "interes": 8.5
+    }
+  ],
+  "usuario": [
+    {
+      "id": 1,
+      "userName": "kevin123",
+      "pass": "123",
+      "roleId": "admin"
+    },
+    {
+      "id": 2,
+      "userName": "tobi",
+      "roleId": "user",
+      "pass": "123"
+    }
+  ]
+}

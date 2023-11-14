@@ -1,0 +1,44 @@
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .inputSearch{
+  //background-color: aqua;
+  border-radius: 5px;
+  border: 1px solid #bebcbc;
+  border-color: #3b3b3b;
+  border-width: 2px;
+  padding: 10px;
+  
+  }
+
+  table {
+    width: 80%;
+    margin-top: 10%;
+  }
+
+  mat-card{
+    margin-top: 1%;
+    width: 80%;
+  }
+
+  .botonDelete{
+    background-color: #B33949;
+  }
+  //simple animation for botonDelete
+  .botonDelete:hover{
+    background-color: #B33949;
+    border-color: #3b3b3b;
+    border-width: 2px;
+    }
+   //simple animation before push the button
+   .botonDelete:active{
+    background-color: #B33949;
+    border-color: #3b3b3b;
+    border-width: 2px;
+    }
+
+  .botonEditar{
+      background-color: #e2ec4c;
+  }

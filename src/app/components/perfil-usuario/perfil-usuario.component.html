@@ -1,0 +1,25 @@
+<div class="container">
+    <mat-card>
+        <mat-card-title>Perfil</mat-card-title>
+        <mat-card-content>     
+            <mat-form-field appearance="outline">
+                <mat-label>Nombre de Usuario</mat-label>
+                <b><input matInput placeholder="Placeholder" value="{{userName}}" disabled="true"></b>
+                <mat-icon matSuffix>perm_identity</mat-icon>
+            </mat-form-field>
+            <p></p>
+            <mat-form-field *ngIf="showPassword" appearance="outline">
+                <mat-label>Contraseña</mat-label>
+                <b><input matInput placeholder="Placeholder"  value="{{pass}}" disabled="true"></b>
+                <mat-icon matSuffix>password</mat-icon>
+            </mat-form-field>
+            <button mat-raised-button  color="primary" (click)="showPassword = !showPassword">
+                {{ showPassword ? 'Ocultar contraseña' : 'Mostrar contraseña' }}
+              </button>
+            <p></p>
+            <button (click)="openDialogEditarPerfil()" mat-raised-button  color="primary">Editar Contraseña</button>
+           
+        </mat-card-content>
+      </mat-card>
+      <app-floating-button icon="power_settings_new"></app-floating-button>
+</div>

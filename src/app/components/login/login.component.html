@@ -1,0 +1,25 @@
+<div class="container">
+    
+    <mat-card>
+        <mat-card-title>REALIZA TU AMORTIZACION AQUI</mat-card-title>
+        <img src="../../../assets/images/user.png" alt="">
+        <mat-card-content>     
+            <mat-form-field>
+              <input matInput [(ngModel)]="user.userName" name="userName" placeholder="Usuario">
+            </mat-form-field>
+            <p></p>
+            <mat-form-field>
+              <input matInput [(ngModel)]="user.pass" name="pass" placeholder="Contraseña" type="password">
+            </mat-form-field>
+            <p></p>
+            <button mat-raised-button (click)="login()" color="primary">Iniciar Sesion</button>
+            <p></p>
+            <button (click)="openDialogCrearUsuario()"  mat-raised-button color="primary">
+              <mat-icon>add_circle_outline</mat-icon>
+              Registrarse
+            </button>
+        </mat-card-content>
+      </mat-card>
+      
+      
+</div>

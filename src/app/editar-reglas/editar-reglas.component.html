@@ -1,0 +1,7 @@
+<p>{{data.banco.nombre}}</p>
+<label class="mr-4">Link de la imagen: </label>
+<input type="text" />
+<div *ngFor="let regla of reglas" class="py-2">
+    <label class="mr-4">Interes {{regla.nombre}}</label>
+    <input type="number" [value]="regla.interes" />
+</div>

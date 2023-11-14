@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background: url('../../../assets/images/FiseiFondo.jpeg');
+    background-size: cover;
+    
+
+
+    mat-card{
+        background-color: rgba(255, 255, 255, 0.90);
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+        height: 350px;
+        width: 300px;
+        text-align: center;
+    }
+    mat-card img {
+        display: block;
+        margin: 0 auto;
+        width: 25%;
+      }
+      
+
+    mat-card-title{
+        margin: 20px;
+        text-align: center;
+    }
+
+    mat-card-title::after{
+        content: "";
+        position: absolute;
+        bottom: -10px;
+        left: 0;
+        right: 0;
+        height: 1px;
+        background-color: rgb(28, 30, 161);
+    }
+
+   
+}

@@ -1,0 +1,14 @@
+<div class="gap-y-2 flex flex-col p-4">
+    <mat-card *ngFor="let banco of bancos">
+        <div class="grid grid-cols-3">
+            <mat-card-header>
+                <mat-card-title>{{ banco.nombre }}</mat-card-title>
+                <mat-card-subtitle>{{ banco.descripcion }}</mat-card-subtitle>
+            </mat-card-header>
+            <mat-card-actions>
+                <button mat-button (click)="editCard(banco)">Editar reglas</button>
+            </mat-card-actions>
+            <img mat-card-image src="{{ banco.imagen }}" alt="Card Image" class="object-cover h-10 w-10" />
+        </div>
+    </mat-card>
+</div>
