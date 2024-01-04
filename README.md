@@ -22,7 +22,7 @@ Asegúrate de tener instalados los siguientes requisitos en tu sistema:
 <img alt="Static Badge" src="https://img.shields.io/badge/angular-version%2015.2.8-red">
 <img alt="Static Badge" src="https://img.shields.io/badge/database-json%20server-yellow">
 
-Por favor, consulte la guía oficial de instalación de laravel para los requisitos del servidor antes de empezar.
+Por favor, consulte la guía oficial de instalación de Angular para los requisitos del servidor antes de empezar.
 
 Clonar el repositorio
 
