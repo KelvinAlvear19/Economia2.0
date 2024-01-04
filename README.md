@@ -46,3 +46,8 @@ Ejecuta el proyecto con el comando
 
 
 Visualizacion del proyecto
+
+
+![WhatsApp Image 2024-01-03 at 12 40 58 PM](https://github.com/KelvinAlvear19/Economia2.0/assets/84355086/f4ac4280-7009-46ab-8723-aac55a09eafb)
+![WhatsApp Image 2024-01-03 at 12 42 32 PM](https://github.com/KelvinAlvear19/Economia2.0/assets/84355086/a99ce1dd-c86e-4214-a634-c5b0a5e51f90)
+![WhatsApp Image 2024-01-03 at 12 43 57 PM](https://github.com/KelvinAlvear19/Economia2.0/assets/84355086/0d68e1a0-6cb6-4801-9dc4-9ea6b8a656a6)
