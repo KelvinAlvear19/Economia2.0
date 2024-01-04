@@ -8,6 +8,9 @@
     <br> </em>
   <br>
 </p>
+
+
+
 ## Importante
 Debo inicializa el servidor de la base de datos 
 
@@ -15,6 +18,7 @@ Debo inicializa el servidor de la base de datos
     
 ## Instalación
 Asegúrate de tener instalados los siguientes requisitos en tu sistema:
+<br>
 <img alt="Static Badge" src="https://img.shields.io/badge/angular-version%2015.2.8-red">
 <img alt="Static Badge" src="https://img.shields.io/badge/database-json%20server-yellow">
 
